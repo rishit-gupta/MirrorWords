@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirrorWords – Real-Time Reflection Typing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MirrorWords</h1>
+        <p class="subtitle">A Real-Time Reflection Typing Tool</p>
+        <div class="controls">
+            <label for="mode">Mirror Mode:</label>
+            <select id="mode">
+                <option value="backwards">Backwards</option>
+                <option value="upsidedown">Upside Down</option>
+                <option value="emoji">Emoji</option>
+                <option value="morse">Morse Code</option>
+            </select>
+        </div>
+        <div class="mirror-app">
+            <textarea id="input" placeholder="Type here..."></textarea>
+            <div id="output" class="output" tabindex="0"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
